@@ -8,7 +8,7 @@
     --light-grey: #e2e0e0;
     --blue: #7f6cfc;
     --orange: #ffc877;
-    --red: #c14444;
+    --red: rgb(68, 178, 193);
 }
 
 #calculator {
@@ -25,7 +25,7 @@
 }
 
 #calculator h1 {
-    background-color: black;
+    background-color: rgb(18, 129, 42);
     color: white;
     text-transform: uppercase;
     text-align: center;
@@ -88,4 +88,8 @@
 
 #button-zero {
     width: 50%;
+}
+
+#button-clear{
+    background-color: red;
 }
